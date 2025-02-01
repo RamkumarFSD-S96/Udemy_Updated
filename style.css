@@ -87,6 +87,14 @@ body
     border:solid black 1px ;
     padding: 10px;
     border-radius: 20px;
+    
+}
+.Catgeories p:hover
+{
+    transition: 1s;
+    background-color: transparent;
+    border: solid #A435F0 1px;
+    color: black;
 }
 .Recommended
 {
@@ -117,6 +125,23 @@ body
     left: 400px;
     height: 100px;
     width: 300px;
+    animation: Zoom;
+    animation-duration: 2s;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+@keyframes Zoom
+{
+    0%
+    {
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%
+    {
+        transform:scale(1);
+        opacity: 1;
+    }
 }
 
 .Saleimg__offer p
@@ -126,7 +151,7 @@ body
 
 .Course-card
 {
-    width: 350px;
+    width: 400px;
 }
 .Course-card img
 {
@@ -147,6 +172,7 @@ body
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
+    margin-top: 10px;
     
 }
 .Topics__Container p
