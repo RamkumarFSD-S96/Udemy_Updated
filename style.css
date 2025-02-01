@@ -151,7 +151,7 @@ body
 
 .Course-card
 {
-    width: 400px;
+    width: 450px;
 }
 .Course-card img
 {
@@ -192,9 +192,11 @@ body
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin-top: 10px;
     padding: 20px;
+    margin-left: 20px;
+
 }
 .footer
 {
